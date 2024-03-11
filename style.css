@@ -93,7 +93,8 @@ body {
 }
 
 #tooltxt {
-	width: 90%;
+	width: 85%;
+	margin: auto;
 }
 
 #finpass, #finpassbtn {
