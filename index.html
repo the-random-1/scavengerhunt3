@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Anta&family=Concert+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<script src="index.js"></script>
+    <title>The Database</title>
+	</head>
+	<body>
+    <div id="main" class="con">
+			<h1 id="head">Navigator</h1>
+			<img id="img" src="gallery.jpeg">
+			<table id="opt">
+				<tr>
+					<td><button class="nav" id="back">&lt;</button></td>
+					<td id="open" onclick="item(1);"><p id="opentxt">OPEN</p></td>
+					<td><button class="nav" id="next">&gt;</button></td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="misc" class="con">
+			<h1 class="ar">Image Selector</h1>
+			<p>These images might hold some clues. They were taken by Demetrius Demarcus Bartholomew James The Third on his expedition to fulfill the search, although he was unsuccessful. Finish his journey by using these images as a guiding light. Click the image to navigate to the next one.</p>
+			<img src="misc1.jpeg" id="miscimg" width="400" height="225">
+			<button class="backbtn">Back</button>
+		</div>
+		<div id="decipher" class="con">
+			<h1 class="ar">Decipher</h1>
+			<table id="dec">
+
+			</table><br>
+			<input placeholder="Offset" id="ofst" type="number">
+			<p id="decmsg"></p>
+			<button class="backbtn">Back</button>
+		</div>
+		<div id="linkup" class="con">
+			<h1 class="ar">Fill in the blank.</h1>
+			<p>Using a specific letter you should have previously obtained, fill in the blank with the correct phrase.</p>
+			<br><p>You shall obtain a noteworthy artifact <span id="fillblank">_________</span>.</p>
+			<table id="fitb">
+				<tr>
+					<td>A</td>
+					<td id="bl1"></td>
+				</tr>
+				<tr>
+					<td>E</td>
+					<td id="bl2"></td>
+				</tr>
+				<tr>
+					<td>I</td>
+					<td id="bl3"></td>
+				</tr>
+				<tr>
+					<td>M</td>
+					<td id="bl4"></td>
+				</tr>
+				<tr>
+					<td>Q</td>
+					<td id="bl5"></td>
+				</tr>
+				<tr>
+					<td>U</td>
+					<td id="bl6"></td>
+				</tr>
+				<tr>
+					<td>Y</td>
+					<td id="bl7"></td>
+				</tr>
+			</table><br>
+			<button class="backbtn">Back</button>
+		</div>
+		<div id="uv" class="con">
+			<h1 class="ar">A helpful tool</h1>
+			<input id="toolpass" placeholder="Enter password here">
+			<button id="toolpassbtn">Enter</button>
+			<p id="tooltxt"></p><br>
+			<img id="toolimg" width="400" height="400">
+			<button class="backbtn">Back</button>
+		</div>
+		<div id="finpassdiv" class="con">
+			<h1 class="ar">A special location</h1>
+			<input id="finpass" placeholder="Enter password here">
+			<button id="finpassbtn">Enter</button><br><br>
+			<img id="finimg" width="400" height="400"><br>
+			<button class="backbtn">Back</button>
+		</div>
+	</body>
+</html>
