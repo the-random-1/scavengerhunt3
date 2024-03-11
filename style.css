@@ -89,6 +89,7 @@ body {
 
 #toolimg {
 	display: none;
+	margin: auto;
 }
 
 #finpass, #finpassbtn {
