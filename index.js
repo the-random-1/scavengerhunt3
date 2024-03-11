@@ -77,6 +77,7 @@ window.onload = function() {
 		} else {
 			document.getElementById("tooltxt").innerText = "This is a UV pen. The button on its side will project a light that can uncover messages previously invisible. Use this tool to reveal any writing hiding in plain sight. You may find this tool in the box of wires in the upstairs closet.";
 			document.getElementById("toolimg").setAttribute("src", "uvpen.jpeg");
+			document.getElementById("toolimg").style.display = "block";
 		}
 	}
 
