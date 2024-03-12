@@ -132,5 +132,10 @@ window.onload = function() {
 		}
 	}
 
-	document.getElementById("glitchfix").onclick = function() {glitch = 0;}
+	document.getElementById("glitchfix").onclick = function() {
+		glitch = 0;
+		if (currmiscimg == 4) {
+			miscimg.setAttribute("src", "misc4.jpeg");
+		}
+	}
 }
