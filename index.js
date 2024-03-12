@@ -117,10 +117,20 @@ window.onload = function() {
 	}
 
 	let currmiscimg = 1;
+	let glitch = 1;
 
 	miscimg.onclick = function() {
 		currmiscimg += 1;
 		if (currmiscimg > 4) {currmiscimg = 1}
 		miscimg.setAttribute("src", "misc" + currmiscimg + ".jpeg");
+		if (currmiscimg == 4) {
+			if (glitch) {
+				miscimg.setAttribute("src", "glitch.jpeg");
+			} else {
+				miscimg.setAttribute("src", "misc4.jpeg");
+			}
+		}
 	}
+
+	document.getElementById("glitchfix").onclick = function() {glitch = 0;}
 }
